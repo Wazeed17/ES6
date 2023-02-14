@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="./data.js" type="text/javascript"></script>
+        <style>
+            .table{
+                border: 1px solid;
+                margin: 50px;
+                padding: 10px;
+                width: 70%;
+            }
+            .thead{
+                border: 1px solid;
+                margin: 50px;
+                padding: 10px;
+                background-color:blue;
+                color: aliceblue;
+            }
+            th{
+                border: 1px solid;
+                padding: 5px 10px;
+            }
+            #tbody_Data{
+                border: 1px solid;
+                margin: 10px;
+                padding: 50px;
+                background-color: aqua;
+            }
+            td{
+                border: 1px solid;
+                padding: 10px;
+                text-align: center;
+            }
+
+        </style>
+        <title>Document</title>
+    </head>
+    <body onload="display_data()"> 
+            <table class="table">
+                <thead class="thead">
+                    <th> id </th>
+                    <th> FNAme </th>
+                    <th> LName </th>
+                    <th> Email </th>
+                    <th> Gender </th>
+                </thead> 
+                <tbody id = "tbody_Data">
+                    
+                </tbody>
+            </table>
+    </body>
+</html>
